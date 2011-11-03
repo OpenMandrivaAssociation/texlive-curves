@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/curves
+# catalog-date 2009-09-24 20:53:04 +0200
+# catalog-license lppl
+# catalog-version 1.53
 Name:		texlive-curves
 Version:	1.53
 Release:	1
@@ -51,6 +57,7 @@ selected by package options.
 #- source
 %doc %{_texmfdistdir}/source/latex/curves/curves.dtx
 %doc %{_texmfdistdir}/source/latex/curves/curves.ins
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -61,3 +68,5 @@ selected by package options.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc source %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}

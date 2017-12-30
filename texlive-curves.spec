@@ -5,8 +5,8 @@
 # catalog-license lppl
 # catalog-version 1.53
 Name:		texlive-curves
-Version:	1.53
-Release:	10
+Version:	1.55
+Release:	1
 Summary:	Curves for LaTeX picture environment
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/curves

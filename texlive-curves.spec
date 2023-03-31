@@ -1,6 +1,6 @@
 Name:		texlive-curves
 Version:	45255
-Release:	1
+Release:	2
 Summary:	Curves for LaTeX picture environment
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/curves

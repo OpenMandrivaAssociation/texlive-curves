@@ -3,7 +3,7 @@ Version:	45255
 Release:	2
 Summary:	Curves for LaTeX picture environment
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/curves
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/curves
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/curves.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/curves.doc.r%{version}.tar.xz
